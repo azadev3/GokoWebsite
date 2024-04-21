@@ -1,0 +1,808 @@
+@media only screen and (max-width: 1115px) and (min-width: 960px) {
+  .Sidebar {
+    width: 24%;
+  }
+
+  .container {
+     width: 100%;
+     min-height: 120vmax;
+    .homepage-index {
+      .layerOne {
+        img {
+          width: 35% !important;
+        }
+        .text {
+          .regstr,
+          h1,
+          h2 {
+            font-size: 0.9rem;
+            margin: 0.5rem;
+          }
+        }
+      }
+
+      .layerTwo {
+        max-width: 100%;
+        max-height: 100%;
+        .articleOne {
+          width: 15rem;
+          height: 13rem;
+          i {
+            font-size: 3rem;
+          }
+          #layer1msg {font-size: 1rem;}
+        }
+        
+        .articleTwo {
+          width: 15rem;
+          height: 13rem;
+          i {
+            font-size: 3rem;
+          }
+          #layer2msg {font-size: 1rem;}
+        }
+
+        .articleThree {
+          width: 15rem;
+          height: 13rem;
+          i {
+            font-size: 3rem;
+          }
+          #layer3msg {font-size: 1rem;}
+        }
+      }
+
+
+      .layerThree{
+          .whoAm {width: 100%;  .Typewriter__wrapper {font-size: 1.1rem;}}
+          .bar {width: 100%;}
+          font-size: 1.1rem;
+
+      }
+
+
+    }
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 960px) and (min-width: 720px) {
+  .Sidebar{
+    width: 30%;
+  }
+
+
+  //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+  .search {
+    max-width: 80%;
+    .search-header {img{width: 25%;}}
+  }
+
+  .messages {
+    max-width: 70%;
+    float: right;
+    .alert {
+      width: 90%;
+      .bar {display: flex;align-items: center;
+      h1 {font-size: 1.5rem;}
+      justify-content: center; text-align: center;  }
+
+      .content {
+        p {font-size: 1rem; margin: -1rem;}
+      }
+
+      .accountbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        #regbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 10rem; }  }
+        #logbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 10.6rem; }  }
+      }
+
+    }
+  }
+
+  .settings {
+    max-width: 70%;
+    .settings-header {
+      width: 100%;
+      float: right;
+      .bar {
+        #backIcon {margin-left: 0.5rem;}
+        span {display: none;}
+        #settingIcon {display: none;}
+        .center {
+          display: flex;
+          letter-spacing: -0.6px;
+          width: 100%;
+          font-size: 0.9rem;
+        }
+
+        .right {img {max-width: 100%;}}
+      }
+
+  
+    }
+  }
+
+  .support-container {
+    max-width: 70%;
+    #form {
+      width: 70%;
+      textarea{resize: none; max-width: 100%; max-height: 90%; padding: 1rem;}
+    }
+  }
+
+  .register {
+    max-width: 100%;
+    form {background-image: none;}
+  }
+
+  .login {
+    max-width: 100%;
+    form {background-image: none;
+    .help-part {
+      width: 100%;
+      border-top: none;
+
+    }
+    }
+  }
+
+  //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+
+
+  .container {
+   width: 70%;
+   min-height: 200vmax;
+  .homepage-index {
+    .layerOne {
+      img {
+        width: 35% !important;
+      }
+      .text {
+        .regstr,
+        h1,
+        h2 {
+          font-size: 0.9rem;
+          margin: 0.5rem;
+        }
+      }
+    }
+
+    .layerTwo {
+      max-width: 100%;
+      max-height: 100%;
+      .articleOne {
+        width: 15rem;
+        height: 13rem;
+        i {
+          font-size: 3rem;
+        }
+        #layer1msg {font-size: 1rem;}
+      }
+      
+      .articleTwo {
+        width: 15rem;
+        height: 13rem;
+        i {
+          font-size: 3rem;
+        }
+        #layer2msg {font-size: 1rem;}
+      }
+
+      .articleThree {
+        width: 15rem;
+        height: 13rem;
+        i {
+          font-size: 3rem;
+        }
+        #layer3msg {font-size: 1rem;}
+      }
+    }
+
+
+    .layerThree{
+      margin-top: 16rem;
+        .whoAm {width: 100%;  .Typewriter__wrapper {font-size: 1.1rem;}}
+        .bar {width: 100%;}
+        font-size: 1.1rem;
+
+    }
+
+
+  }
+}
+}
+
+
+@media only screen and (max-width: 720px) and (min-width: 576px) {
+          //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+  .search {
+    max-width: 80%;
+    .search-header {img{width: 35%;}}
+
+    .search-area {
+      width: 100%;
+    }
+  }
+
+  .messages {
+    max-width: 80%;
+    float: right;
+    .alert {
+      width: 90%;
+      .bar {display: flex;align-items: center;
+      h1 {font-size: 1.5rem;}
+      justify-content: center; text-align: center;  }
+
+      .content {
+        p {font-size: 0.9rem; margin: -1rem;}
+      }
+
+      .accountbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        #regbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 7rem; }  }
+        #logbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 7.6rem; }  }
+      }
+
+    }
+  }
+
+  .settings {
+    max-width: 80%;
+    .settings-header {
+      width: 100%;
+      float: right;
+      .bar {
+        #backIcon {margin-left: 0.5rem;}
+        span {display: none;}
+        #settingIcon {display: none;}
+        .center {
+          display: flex;
+          letter-spacing: -0.6px;
+          width: 100%;
+          font-size: 0.9rem;
+        }
+
+        .right {img {max-width: 100%;}}
+      }
+
+  
+    }
+  }
+
+  .support-container {
+    max-width: 80%;
+    #form {
+      * {font-size: 0.9rem;}
+      select {font-size: 1rem;}
+      width: 80%;
+      textarea{resize: none; max-width: 100%; max-height: 70%; padding: 1rem;}
+    }
+  }
+
+  .register {
+    max-width: 100%;
+    form {background-image: none;}
+  }
+
+  .login {
+    max-width: 100%;
+    form {background-image: none;
+    .help-part {
+      width: 100%;
+      border-top: none;
+
+    }
+    }
+  }
+
+  //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+
+
+        .container {
+           width: 80%;
+           min-height: 250vmax;
+          .homepage-index {
+            .layerOne {
+              img {
+                width: 30% !important;
+              }
+              .text {
+                .regstr,
+                h1,
+                h2 {
+                  font-size: 1rem;
+                  margin: 0.5rem;
+                  padding: 0.7rem 2rem;
+                }
+              }
+            }
+      
+            .layerTwo {
+              max-width: 100%;
+              max-height: 100%;
+              .articleOne {
+                width: 15rem;
+                height: 13rem;
+                i {
+                  font-size: 3rem;
+                }
+                #layer1msg {font-size: 0.9rem;}
+              }
+              
+              .articleTwo {
+                margin: 3rem 0rem;
+                width: 15rem;
+                height: 13rem;
+                i {
+                  font-size: 3rem;
+                }
+                #layer2msg {font-size: 0.9rem;}
+              }
+      
+              .articleThree {
+                width: 15rem;
+                height: 13rem;
+                
+                i {
+                  font-size: 3rem;
+                }
+                #layer3msg {font-size: 0.9rem;}
+              }
+            }
+      
+      
+            .layerThree{
+               margin-top: 20rem;
+                .whoAm {width: 100%;  .Typewriter__wrapper {font-size: 0.8rem;}}
+                .bar {width: 100%;}
+                font-size: 0.8rem;
+      
+            }
+      
+      
+          }
+        }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px) and (min-width: 398px) {
+
+
+            //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+            .search {
+              max-width: 80%;
+              .search-header {img{width: 45%;}}
+          
+              .search-area {
+                width: 100%;
+                #srcIcon {font-size: 1.2rem; margin-left: 0.5rem;}
+                input[type='search'] {font-size: 0.9rem; width: 100%;}
+                #srcBtn {width: 30%; padding: 0.9rem 0rem; font-size: 1rem;}
+              }
+            }
+          
+            .messages {
+              max-width: 80%;
+              float: right;
+              .alert {
+                width: 75%;
+                height: 90%;
+                .bar {display: flex;align-items: center; height: 10%;
+                h1 {font-size: 1rem;}
+                justify-content: center; text-align: center;  }
+          
+                .content {
+                  p {font-size: 0.8rem; margin: -0rem; text-align: start; margin-top: 1rem;}
+                  i {font-size: 5rem; display: none;}
+                }
+          
+                .accountbuttons {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  margin-top: 5rem;
+                  #regbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 4rem; }  }
+                  #logbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 4.6rem; }  }
+                }
+          
+              }
+            }
+          
+            .settings {
+              max-width: 80%;
+              .settings-header {
+                width: 100%;
+                float: right;
+                .bar {
+                  #backIcon {margin-left: 0.5rem;}
+                  span {display: none;}
+                  #settingIcon {display: none;}
+                  .center {
+                    display: flex;
+                    letter-spacing: -1px;
+                    width: 100%;
+                    font-size: 0.8rem;
+                  }
+          
+                  .right {img {display: none;}}
+                }
+          
+            
+              }
+            }
+          
+            .support-container {
+              max-width: 80%;
+              #form {
+                * {font-size: 0.9rem;}
+                select {font-size: 1rem;}
+                width: 90%;
+                textarea{resize: none; max-width: 100%; max-height: 70%; padding: 1rem;}
+                button[type='submit'] {font-size: 1rem !important;}
+              }
+            }
+          
+            .register {
+              max-width: 100%;
+              form {background-image: none;
+              width: 98%;
+              input[type='text'] {width: 100%;}
+              input[type='password'] {width: 100%;}
+              input[type='email'] {width: 100%;}
+              input[type='date'] {width: 100%;}
+              .form-input-gender {
+                width: 70%;
+                margin-right: 6.6rem;
+              }
+              #iconEye {
+                right: 0.7rem;
+              }
+
+              button[type='submit'] {
+                margin-right: 6rem;
+              }
+              }
+            }
+          
+            .login {
+              max-width: 100%;
+                form {background-image: none;
+                  width: 98%;
+                  input[type='text'] {width: 100%;}
+                  input[type='password'] {width: 100%;}
+                  input[type='email'] {width: 100%;}
+                  input[type='date'] {width: 100%;}
+                  .form-input-gender {
+                    width: 70%;
+                    margin-right: 6.6rem;
+                  }
+                  #iconEye {
+                    right: 1rem;
+                  }
+    
+                  button[type='submit'] {
+                    margin-right: 6rem;
+                  }
+                  .help-part {
+                width: 100%;
+                border-top: none;
+                margin-right: 6rem;
+              }
+                  }
+              
+            }
+          
+            //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+          
+
+
+  .MobileSidebar {
+    width: 55%;
+    .Sidebar {
+      width: 55%;
+    }
+  }
+
+  .container {
+    width: 80%;
+    min-height: 250vmax;
+   .homepage-index {
+     .layerOne {
+       img {
+         display: none;
+       }
+       .text {
+         .regstr,
+         h1,
+         h2 {
+           font-size: 0.9rem;
+           margin: 0.5rem;
+           padding: 0.3rem 1rem;
+         }
+       }
+     }
+
+     .layerTwo {
+       max-width: 100%;
+       max-height: 100%;
+       .articleOne {
+         width: 15rem;
+         height: 13rem;
+         i {
+           font-size: 3rem;
+         }
+         #layer1msg {font-size: 0.8rem;}
+       }
+       
+       .articleTwo {
+         margin: 3rem 0rem;
+         width: 15rem;
+         height: 13rem;
+         i {
+           font-size: 3rem;
+         }
+         #layer2msg {font-size: 0.8rem;}
+       }
+
+       .articleThree {
+         width: 15rem;
+         height: 13rem;
+         
+         i {
+           font-size: 3rem;
+         }
+         #layer3msg {font-size: 0.8rem;}
+       }
+     }
+
+
+     .layerThree{
+        margin-top: 20rem;
+         .whoAm {width: 100%;  .Typewriter__wrapper {font-size: 0.7rem; padding: -4rem; overflow: hidden;} overflow: hidden;}
+         .bar {width: 100%;}
+         font-size: 0.8rem;
+
+     }
+
+
+   }
+ }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 398px) and (min-width: 200px) {
+
+
+            //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+            .search {
+              max-width: 80%;
+              .search-header {img{width: 45%;}}
+          
+              .search-area {
+                width: 100%;
+                #srcIcon {font-size: 1.2rem; margin-left: 0.5rem; display: none;}
+                input[type='search'] {font-size: 0.9rem; width: 100%; margin-left: 0.7rem;}
+                #srcBtn {width: 50%; padding: 0.5rem 0rem; font-size: 0.9rem;}
+              }
+            }
+          
+            .messages {
+              max-width: 80%;
+              float: right;
+              .alert {
+                width: 100%;
+                height: 90%;
+                .bar {display: flex;align-items: center; height: 10%;
+                h1 {font-size: 1rem;}
+                justify-content: center; text-align: center;  }
+          
+                .content {
+                  p {font-size: 0.8rem; margin: -0rem; text-align: start; margin-top: 1rem;}
+                  i {font-size: 5rem; display: none;}
+                }
+          
+                .accountbuttons {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  margin-top: 5rem;
+                  #regbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 4rem; }  }
+                  #logbtn { button[type='submit'] {font-size: 0.9rem; padding: 0.5rem 4.6rem; }  }
+                }
+          
+              }
+            }
+          
+            .settings {
+              max-width: 80%;
+              .settings-header {
+                width: 100%;
+                float: right;
+                .bar {
+                  display: flex;
+                  #backIcon {margin-left: 0.4rem;}
+                  span {display: none;}
+                  #settingIcon {display: none;}
+                  .center {
+                    display: flex;
+                    letter-spacing: -1px;
+                    width: 100%;
+                    font-size: 0.8rem;
+                  }
+          
+                  .right {img {display: none;}}
+                }
+          
+            
+              }
+            }
+          
+            .support-container {
+              max-width: 80%;
+              #form {
+                * {font-size: 0.8rem;}
+                select {font-size: 0.9rem;}
+                width: 90%;
+                height: 60%;
+                background-image: none;
+                textarea{resize: none; max-width: 100%; max-height: 70%; padding: 1rem;}
+                button[type='submit'] {font-size: 1rem !important;}
+              }
+            }
+          
+            .register {
+              max-width: 100%;
+              form {background-image: none;
+              width: 98%;
+              input[type='text'] {width: 100%;}
+              input[type='password'] {width: 100%;}
+              input[type='email'] {width: 100%;}
+              input[type='date'] {width: 100%;}
+              .form-input-gender {
+                width: 70%;
+                margin-right: 6.6rem;
+              }
+              #iconEye {
+                right: 0.7rem;
+              }
+
+              button[type='submit'] {
+                margin-right: 6rem;
+              }
+              }
+            }
+          
+            .login {
+              max-width: 100%;
+                form {background-image: none;
+                  width: 98%;
+                  input[type='text'] {width: 100%;}
+                  input[type='password'] {width: 100%;}
+                  input[type='email'] {width: 100%;}
+                  input[type='date'] {width: 100%;}
+                  .form-input-gender {
+                    width: 70%;
+                    margin-right: 6.6rem;
+                  }
+                  #iconEye {
+                    right: 1rem;
+                  }
+    
+                  button[type='submit'] {
+                    margin-right: 6rem;
+                  }
+                  .help-part {
+                width: 100%;
+                border-top: none;
+                margin-right: 6rem;
+              }
+                  }
+              
+            }
+          
+            //COMPONENTS CONTAINER ---------------------------------->>>>>>>>>>
+          
+
+
+
+  .MobileSidebar {
+    width: 80%;
+    .Sidebar {
+      width: 80%;
+    }
+    
+  }
+  .bi-list-ul {
+    left: -0.7rem;
+  }
+  
+
+  .container {
+    width: 80%;
+    min-height: 250vmax;
+   .homepage-index {
+     .layerOne {
+       img {
+         display: none;
+       }
+       .text {
+         .regstr,
+         h1,
+         h2 {
+           font-size: 0.9rem;
+           margin: 0.5rem;
+           padding: 0.3rem 1rem;
+         }
+       }
+     }
+
+     .layerTwo {
+       max-width: 100%;
+       max-height: 100%;
+       .articleOne {
+         width: 15rem;
+         height: 13rem;
+         i {
+           font-size: 3rem;
+         }
+         #layer1msg {font-size: 0.8rem;}
+       }
+       
+       .articleTwo {
+         margin: 3rem 0rem;
+         width: 15rem;
+         height: 13rem;
+         i {
+           font-size: 3rem;
+         }
+         #layer2msg {font-size: 0.8rem;}
+       }
+
+       .articleThree {
+         width: 15rem;
+         height: 13rem;
+         
+         i {
+           font-size: 3rem;
+         }
+         #layer3msg {font-size: 0.8rem;}
+       }
+     }
+
+
+     .layerThree{
+        margin-top: 20rem;
+         .whoAm {width: 100%;  .Typewriter__wrapper {font-size: 0.7rem; padding: -4rem; overflow: hidden;} overflow: hidden;}
+         .bar {width: 100%;}
+         font-size: 0.8rem;
+
+     }
+
+
+   }
+ }
+}

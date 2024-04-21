@@ -1,0 +1,35 @@
+.Account {
+     background-color: white;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+
+   
+     .WelcomeMessage {
+       column-gap: 1%;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       animation: opacity 5s ease-out normal forwards;
+
+       @keyframes opacity {
+          0%{opacity: 100%;}
+          100% {opacity: 0;}
+       }
+   
+       h1 {
+         font-weight: 1000;
+         letter-spacing: 3px;
+         span {
+           color: mediumslateblue;
+         }
+         color: #303030;
+       }
+     }
+
+  
+   }
+   

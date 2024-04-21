@@ -1,0 +1,280 @@
+//REGISTER PROCESSes
+.register {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(75, 51, 131);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    background-image: url(goko-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 50%;
+    background-position-x: 10%;
+    width: 100%;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    .back {
+      width: 100%;
+      height: 30px;
+      margin: 1.3rem 0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-bottom: 10px solid mediumslateblue;
+      h4 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .form-input {
+      display: grid;
+      grid-template-columns: 20rem;
+      grid-template-rows: 30px;
+      justify-items: safe;
+      align-items: center;
+      color: white;
+      input {
+        padding: 0.6rem;
+        height: 3rem;
+        border-radius: 6px;
+        width: 25rem;
+        color: #303030;
+        border: none;
+        outline: none;
+        position: relative;
+        box-shadow: 0px 0px 5px 0px rgb(121, 121, 121);
+        transition: 0.1s all;
+      }
+      label {
+        color: #535353;
+      }
+      input:focus {
+        border: 3px solid rgba(60, 179, 114, 0.671);
+        transition: 0.1s all;
+      }
+      input:focus {
+        font-size: 1.6rem;
+      }
+      input:focus > label {
+        display: none;
+      }
+
+      #iconEye {
+        font-size: 1.7rem;
+        top: 0.3rem;
+        margin-left: 22rem;
+      }
+    }
+
+    .form-input-gender {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 2rem;
+      label,
+      small {
+        color: #535353;
+      }
+      small {
+        font-size: 1rem;
+      }
+      column-gap: 1%;
+      margin-left: 5rem;
+      input[type="radio"] {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    button[type="submit"] {
+      margin-left: 4.5rem;
+      margin-top: 2rem;
+      padding: 0.4rem 5%;
+      border: none;
+      box-shadow: 0px 0px 5px 0px mediumslateblue;
+      background-color: rgb(41, 41, 148);
+      color: white;
+      transition: 0.1s ease-out;
+    }
+    button[type="submit"]:hover {
+      background-color: mediumslateblue;
+      color: #303030;
+      font-weight: 1000;
+    }
+    button[type="submit"]:active {
+      outline: 3px solid rgb(30, 146, 59);
+    }
+
+    input[type='text']{
+      padding-right: 3rem;
+    }
+    input[type='password']{
+      padding-right: 3rem;
+    }
+
+  }
+
+}
+
+//LOGIN PROCESSes
+.login {
+
+  .successMsg {
+    font-weight: 1000;
+    padding: 2.5rem;
+    color: #303030;
+    background-color: rgb(247, 247, 247);
+  }
+
+  .wrongMsg {
+    background-color: #303030;
+    color: rgb(221, 45, 45);
+    padding: 0.5rem 5rem;
+    font-weight: 1000;
+  }
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(177, 27, 27);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    background-image: url(goko-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 50%;
+    background-position-x: 10%;
+    width: 100%;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+
+    .back {
+      top: 4.3rem;
+      position: absolute;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-bottom: 10px solid rgb(204, 60, 60);
+      h4 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .form-input {
+      display: grid;
+      grid-template-columns: 20rem;
+      grid-template-rows: 30px;
+      justify-items: safe;
+      align-items: center;
+      color: white;
+      input {
+        padding: 0.6rem;
+        height: 3rem;
+        border-radius: 6px;
+        width: 25rem;
+        color: #303030;
+        border: none;
+        outline: none;
+        position: relative;
+        box-shadow: 0px 0px 5px 0px rgb(121, 121, 121);
+        transition: 0.1s all;
+      }
+      label {
+        color: #535353;
+      }
+      input:focus {
+        border: 3px solid rgba(60, 179, 114, 0.671);
+        transition: 0.1s all;
+      }
+      input:focus {
+        font-size: 1.6rem;
+      }
+      input:focus > label {
+        display: none;
+      }
+
+      #iconEye {
+        font-size: 1.7rem;
+        top: 0.3rem;
+        margin-left: 22rem;
+      }
+    }
+
+    button[type="submit"] {
+      margin-left: 4.5rem;
+      margin-top: 2rem;
+      padding: 0.4rem 5%;
+      border: none;
+      box-shadow: 0px 0px 5px 0px mediumslateblue;
+      background-color: rgb(36, 97, 133);
+      color: white;
+      transition: 0.1s ease-out;
+    }
+    button[type="submit"]:hover {
+      background-color: mediumslateblue;
+      color: #303030;
+      font-weight: 1000;
+    }
+    button[type="submit"]:active {
+      outline: 3px solid rgb(30, 146, 59);
+    }
+
+    .help-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5rem;
+      margin-top: 1rem;
+      border-top: 1px solid #303030;
+      width: 29%;
+      padding: 0.5rem;
+    }
+
+    input[type='text']{
+      padding-right: 3rem;
+    }
+    input[type='password']{
+      padding-right: 3rem;
+    }
+  }
+
+  //animation on page
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 0.9s ease-out;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 0.9s ease-out;
+  }
+}

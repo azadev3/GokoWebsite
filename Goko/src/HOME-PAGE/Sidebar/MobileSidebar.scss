@@ -1,0 +1,108 @@
+.bi-list-ul {
+  position: fixed;
+  background-color: mediumseagreen;
+  color: white;
+  padding: 0rem 0.7rem;
+  font-size: 2rem;
+  border-radius: 10%;
+  cursor: pointer;
+  z-index: 1000;
+  margin-left: 4.5%;
+  margin-top: 2.3%;
+}
+.show {display: block !important;}
+.hidden {display: none !important;}
+
+.bi-list-ul:hover {
+  background-color: rgb(57, 57, 165);
+}
+.bi-x {
+  color: white;
+  padding: 0rem 0.6rem;
+  font-size: 2rem;
+  background-color: #303030;
+  cursor: pointer;
+  border-radius: 10%;
+  z-index: 1001;
+  margin-left: 76%;
+  margin-top: 5%;
+}
+.bi-x:hover {
+  background-color: rgb(63, 63, 184);
+}
+
+.MobileSidebar {
+  z-index: 10001;
+  width: 45%;
+  height: 100vh;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 20px 0px #30303031;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  .Sidebar {
+    animation: left 0.4s ease-out forwards normal;
+    width: 45%;
+    height: 100%;
+    position: fixed;
+  }
+}
+
+.showReg {display: block;}
+.hiddenReg {display: none !important;}
+@keyframes left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.IfCloseMobileSidebar {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem 0rem;
+    position: relative;
+    bottom: 2.5rem;
+    i {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-right: 1.1rem;
+    }
+    #linkI:hover {
+      padding: 0.5rem;
+      background-color: rgb(152, 150, 163);
+      border-radius: 10%;
+    }
+  }
+
+  .registerIcons {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #948e8e;
+    width: 90%;
+
+    i {
+      font-size: 2.7rem;
+    }
+  }
+}

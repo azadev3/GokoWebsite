@@ -1,0 +1,260 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 83%;
+  height: 100vmax;
+  float: right;
+
+  //homepage-index
+  .homepage-index {
+    width: 100%;
+    height: 100%;
+
+    //Layer 1
+    .layerOne {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 300px;
+      .text {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          color: mediumslateblue;
+          text-align: center;
+          background-color: white;
+          font-size: 1.3rem;
+          border-radius: 20px;
+          padding: 1rem 4rem;
+          box-shadow: 0px 0px 50px 0px #30303052;
+          animation: topH1 0.8s ease-out forwards normal;
+        }
+        @keyframes topH1 {
+          from {
+            transform: translateY(-5rem);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+        .regstr {
+          border: none;
+          font-weight: 1000;
+          font-size: 1.4rem;
+          margin-top: 1rem;
+          color: white;
+          background-color: mediumslateblue;
+          text-align: center;
+          border-radius: 20px;
+          padding: 1rem 3rem;
+          animation: registr 0.6s ease-out forwards normal;
+          text-decoration: none;
+          transition: 0.3s ease-out;
+        }
+        .regstr:hover {
+          background-color: white;
+          color: #303030;
+        }
+        @keyframes registr {
+          from {
+            transform: translateX(50rem);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+        h2 {
+          color: rgb(72, 57, 138);
+          text-align: center;
+          background-color: white;
+          padding: 1rem 4rem;
+          border-radius: 20px;
+          margin-top: 1rem;
+          font-size: 1.3rem;
+          animation: bottomH2 0.7s ease-out forwards normal;
+        }
+        @keyframes bottomH2 {
+          from {
+            transform: translateY(100rem);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+      }
+
+      #gokologohomepage {
+        width: 40%;
+        @keyframes top {
+          0% {
+            transform: translateX(-50rem);
+            opacity: 10%;
+          }
+          50% {
+            transform: translateX(20rem);
+            opacity: 50%;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 100%;
+          }
+        }
+      }
+    }
+
+    //layer2
+    .layerTwo {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      .articleOne,
+      .articleTwo,
+      .articleThree {
+        border-bottom: 1px solid mediumslateblue;
+        width: 20rem;
+        height: 15rem;
+        background-color: rgba(245, 245, 245, 0.404);
+        border-radius: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        text-align: center;
+        transition: 0.1s ease-out;
+      }
+      .articleOne {
+        i {
+          font-size: 5rem;
+          color: rgb(185, 56, 179);
+        }
+        #layer1msg {
+          color: #303030;
+          font-weight: 1000;
+          z-index: 1;
+          letter-spacing: -1px;
+          font-size: 1rem;
+          margin-top: 2.5rem;
+        }
+      }
+      .articleOne:hover {
+        background-color: rgba(216, 81, 216, 0.24);
+        transform: scale(1.1);
+      }
+
+      .articleTwo {
+        i {
+          font-size: 5rem;
+          color: rgb(51, 124, 51);
+        }
+        #layer2msg {
+          color: #303030;
+          font-weight: 1000;
+          z-index: 1;
+          font-size: 1.5rem;
+          margin-top: 2.5rem;
+          letter-spacing: -1px;
+        }
+      }
+      .articleTwo:hover {
+        background-color: rgba(112, 216, 143, 0.24);
+        transform: scale(1.1);
+      }
+
+      .articleThree {
+        overflow: hidden;
+        i {
+          font-size: 5rem;
+          color: rgb(101, 78, 235);
+        }
+        #layer3msg {
+          overflow: hidden;
+          color: #303030;
+          font-weight: 1000;
+          z-index: 1;
+          letter-spacing: -1px;
+          padding: 1rem;
+          font-size: 1rem;
+        }
+      }
+      .articleThree:hover {
+        background-color: rgba(74, 131, 255, 0.24);
+        transform: scale(1.1);
+      }
+    }
+
+    //layer3
+    .layerThree {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 350px;
+
+      //bar
+      .bar {
+        width: 80%;
+        height: 25px;
+        background-color: #6e6e6e;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .left {
+          display: flex;
+          margin: 1rem;
+          i {
+            font-size: 1.1rem;
+            color: #cecece;
+          }
+          span {
+            color: #cecece;
+            letter-spacing: 10px;
+            font-weight: 1000;
+          }
+        }
+        .right {
+          display: flex;
+          flex-direction: row-reverse;
+          margin: 10px;
+          i {
+            margin: 0px 10px;
+            color: #cecece;
+          }
+        }
+      }
+
+      .whoAm {
+        width: 80%;
+        height: 200px;
+        background-color: #212529;
+        box-shadow: 0px 0px 30px 0px #044702;
+        overflow: hidden;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        span {
+          font-family: monospace;
+          font-size: 1rem;
+          margin-right: 1rem;
+          text-align: center;
+        }
+        .Typewriter__wrapper {
+          font-family: monospace;
+          letter-spacing: -2px;
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
